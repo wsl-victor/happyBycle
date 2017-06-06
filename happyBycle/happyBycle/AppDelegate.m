@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  happyBycle
 //
-//  Created by Stephen on 2017/5/17.
+//  Created by victor on 2017/5/17.
 //  Copyright © 2017年 wsl. All rights reserved.
 //
 

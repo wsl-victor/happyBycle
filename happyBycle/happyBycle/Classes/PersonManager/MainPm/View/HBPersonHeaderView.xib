@@ -153,7 +153,7 @@
                                 <constraint firstAttribute="width" constant="70" id="ucf-kv-zKD"/>
                             </constraints>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18900127193" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ib-zI-al0">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1890012****" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ib-zI-al0">
                             <rect key="frame" x="20" y="110" width="372" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="zu0-hO-uFq"/>

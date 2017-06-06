@@ -2,7 +2,7 @@
 //  HBPersonManagerController.m
 //  happyBycle
 //
-//  Created by Stephen on 2017/5/18.
+//  Created by victor on 2017/5/18.
 //  Copyright © 2017年 wsl. All rights reserved.
 //
 
