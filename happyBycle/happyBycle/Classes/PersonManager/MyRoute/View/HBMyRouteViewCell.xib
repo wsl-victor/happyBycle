@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="KGk-i7-Jjw" customClass="HBMyRouteViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eba-lt-1U2">
+                        <rect key="frame" x="15" y="10" width="7" height="7"/>
+                        <color key="backgroundColor" red="0.0086774553571428575" green="1" blue="0.0537109375" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="7" id="5Hg-x8-UUq"/>
+                            <constraint firstAttribute="height" constant="7" id="VkM-vo-qoc"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jTl-7m-x77" userLabel="line">
+                        <rect key="frame" x="17" y="17" width="1" height="57.5"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="nfK-Og-7dR"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUd-Ic-pcx" userLabel="line1">
+                        <rect key="frame" x="19" y="17" width="1" height="57.5"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="uqD-0I-O0N"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaI-Dg-6d1" userLabel="line4">
+                        <rect key="frame" x="19" y="0.0" width="1" height="10"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="B3F-DL-6rx"/>
+                            <constraint firstAttribute="width" constant="1" id="lOJ-Ea-aJf"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WLv-WQ-Pnl" userLabel="line3">
+                        <rect key="frame" x="17" y="0.0" width="1" height="10"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="a2p-lO-so2"/>
+                            <constraint firstAttribute="height" constant="10" id="iE6-h4-CdD"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-05-23 19:12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2iJ-2u-VLI">
+                        <rect key="frame" x="35" y="2" width="101.5" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Nbe-6X-b68"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自行车编号：0101212121212" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8wc-fB-bOE">
+                        <rect key="frame" x="35" y="24" width="158.5" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="4fG-ZT-gnf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="778-nK-LLu">
+                        <rect key="frame" x="35" y="46" width="102" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="p0g-8A-bqC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-12" maxY="0.0"/>
+                        <state key="normal" title="骑行时间：8分钟" image="costtime_icon">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGt-Mi-e7M">
+                        <rect key="frame" x="159" y="46" width="100" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="jMB-6q-2ZY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-12" maxY="0.0"/>
+                        <state key="normal" title="骑行花费：0.5元" image="costmoney_icon">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jTl-7m-x77" firstAttribute="leading" secondItem="Eba-lt-1U2" secondAttribute="leading" constant="2" id="0Oi-fP-Krs"/>
+                    <constraint firstItem="LUd-Ic-pcx" firstAttribute="top" secondItem="Eba-lt-1U2" secondAttribute="bottom" id="0ao-6e-Qo3"/>
+                    <constraint firstItem="RaI-Dg-6d1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="1I4-es-aVM"/>
+                    <constraint firstItem="8wc-fB-bOE" firstAttribute="top" secondItem="2iJ-2u-VLI" secondAttribute="bottom" id="3Ed-Cm-0nj"/>
+                    <constraint firstAttribute="bottom" secondItem="jTl-7m-x77" secondAttribute="bottom" id="3Lh-fW-bqu"/>
+                    <constraint firstItem="WLv-WQ-Pnl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9cj-gg-TUe"/>
+                    <constraint firstItem="Eba-lt-1U2" firstAttribute="top" secondItem="WLv-WQ-Pnl" secondAttribute="bottom" id="B9T-XO-G6t"/>
+                    <constraint firstItem="2iJ-2u-VLI" firstAttribute="leading" secondItem="LUd-Ic-pcx" secondAttribute="trailing" constant="15" id="NmF-DA-KBv"/>
+                    <constraint firstItem="cGt-Mi-e7M" firstAttribute="top" secondItem="8wc-fB-bOE" secondAttribute="bottom" id="PeB-hG-JS2"/>
+                    <constraint firstItem="778-nK-LLu" firstAttribute="leading" secondItem="LUd-Ic-pcx" secondAttribute="trailing" constant="15" id="PsB-De-fsc"/>
+                    <constraint firstItem="WLv-WQ-Pnl" firstAttribute="leading" secondItem="Eba-lt-1U2" secondAttribute="leading" constant="2" id="RWV-S2-BnS"/>
+                    <constraint firstItem="LUd-Ic-pcx" firstAttribute="trailing" secondItem="Eba-lt-1U2" secondAttribute="trailing" constant="-2" id="VaT-UJ-mJW"/>
+                    <constraint firstItem="RaI-Dg-6d1" firstAttribute="trailing" secondItem="Eba-lt-1U2" secondAttribute="trailing" constant="-2" id="b7h-Ko-mO4"/>
+                    <constraint firstAttribute="bottom" secondItem="LUd-Ic-pcx" secondAttribute="bottom" id="hZc-AA-ShE"/>
+                    <constraint firstItem="Eba-lt-1U2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="neQ-lw-AyV"/>
+                    <constraint firstItem="8wc-fB-bOE" firstAttribute="leading" secondItem="LUd-Ic-pcx" secondAttribute="trailing" constant="15" id="nwK-r5-vA2"/>
+                    <constraint firstItem="cGt-Mi-e7M" firstAttribute="leading" secondItem="778-nK-LLu" secondAttribute="trailing" constant="22" id="p8V-V9-hCA"/>
+                    <constraint firstItem="jTl-7m-x77" firstAttribute="top" secondItem="Eba-lt-1U2" secondAttribute="bottom" id="tCF-ae-STs"/>
+                    <constraint firstItem="778-nK-LLu" firstAttribute="top" secondItem="8wc-fB-bOE" secondAttribute="bottom" id="vtd-41-j7e"/>
+                    <constraint firstItem="2iJ-2u-VLI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="yoS-ub-eiA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="33" y="95.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="costmoney_icon" width="8" height="8"/>
+        <image name="costtime_icon" width="8" height="8"/>
+    </resources>
+</document>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TKeyBoardView">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FO5-le-VxD">
+                    <rect key="frame" x="0.0" y="0.0" width="104" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="cnT-dw-GPt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="1" backgroundImage="qb_tenpay_keyboard_single"/>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="1oR-h6-T8V"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UI9-wC-UeV">
+                    <rect key="frame" x="234" y="0.0" width="106" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="bGI-Fp-2e3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="3" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="0.98534650259067358" green="0.31122026116193097" blue="0.24142604203641399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="AFe-7r-QTW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="304" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdA-Zy-JjS">
+                    <rect key="frame" x="0.0" y="54" width="104" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="4" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="NYG-4f-fIA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="307" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiW-pg-xzX">
+                    <rect key="frame" x="0.0" y="108" width="104" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="7" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="1" green="0.091061797289999996" blue="0.093160033439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vq1-2M-Wsa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" userInteractionEnabled="NO" tag="310" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eob-6L-iXS">
+                    <rect key="frame" x="0.0" y="162" width="104" height="54"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="3" maxY="13"/>
+                    <state key="normal" backgroundImage="qb_tenpay_keyboard_single_press">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" title="." backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="hr9-RB-5xT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="311" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rkq-A2-Cx2" userLabel="Del">
+                    <rect key="frame" x="234" y="162" width="106" height="54"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" backgroundImage="qb_tenpay_keyboard_single_press">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="dve-Wj-A1u"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="309" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyo-AC-IWs">
+                    <rect key="frame" x="234" y="108" width="106" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="9" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="iks-3y-3NM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="306" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ek2-sn-qdq">
+                    <rect key="frame" x="234" y="54" width="106" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="6" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="p2c-vH-yrY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSr-sW-NrB">
+                    <rect key="frame" x="104" y="0.0" width="130" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="SrP-E8-q9d"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="2" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="9kw-mc-n6D"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="305" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V02-8I-aLZ">
+                    <rect key="frame" x="104" y="54" width="130" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="5" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="qWM-Ut-XP0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzo-Od-qGA">
+                    <rect key="frame" x="104" y="162" width="130" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="0" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="dGK-fs-A0h"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kM4-XS-le0" userLabel="顶部1像素">
+                    <rect key="frame" x="0.0" y="0.0" width="340" height="1"/>
+                    <color key="backgroundColor" red="0.74901960784313726" green="0.76470588235294112" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Ezv-kP-Olh"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="308" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfB-NR-auN">
+                    <rect key="frame" x="104" y="108" width="130" height="54"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="8" backgroundImage="qb_tenpay_keyboard_single">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="qb_tenpay_keyboard_single_dark"/>
+                    <connections>
+                        <action selector="selectNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="d6O-HC-gBU"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qb_tenpay_keyboard_close" translatesAutoresizingMaskIntoConstraints="NO" id="qJX-pk-rXi">
+                    <rect key="frame" x="277" y="183" width="22" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="72W-XZ-lAS"/>
+                        <constraint firstAttribute="height" constant="16" id="7zt-Qt-XdH"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="leading" secondItem="RiW-pg-xzX" secondAttribute="leading" id="308-qy-SwO"/>
+                <constraint firstItem="ZSr-sW-NrB" firstAttribute="leading" secondItem="FO5-le-VxD" secondAttribute="trailing" id="3ww-jA-u9R"/>
+                <constraint firstItem="mzo-Od-qGA" firstAttribute="top" secondItem="GfB-NR-auN" secondAttribute="bottom" id="52Z-eo-g5P"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5Z6-e6-c4S"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="width" secondItem="UI9-wC-UeV" secondAttribute="width" constant="-2" id="6AB-cL-G58"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="top" secondItem="Ek2-sn-qdq" secondAttribute="bottom" id="7yx-WL-VUN"/>
+                <constraint firstItem="Ek2-sn-qdq" firstAttribute="top" secondItem="UI9-wC-UeV" secondAttribute="bottom" id="9Fp-Dt-qsN"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="leading" secondItem="UI9-wC-UeV" secondAttribute="leading" id="ASt-el-tyA"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="leading" secondItem="V02-8I-aLZ" secondAttribute="leading" id="FTW-QS-PLA"/>
+                <constraint firstItem="eob-6L-iXS" firstAttribute="height" secondItem="mzo-Od-qGA" secondAttribute="height" id="HeH-xv-cju"/>
+                <constraint firstAttribute="trailing" secondItem="UI9-wC-UeV" secondAttribute="trailing" id="JJZ-QB-8TC"/>
+                <constraint firstItem="kM4-XS-le0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KBo-O1-MfW"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="height" secondItem="RiW-pg-xzX" secondAttribute="height" id="Kqa-RS-chk"/>
+                <constraint firstItem="ZSr-sW-NrB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MLb-TB-h9g"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="width" secondItem="RiW-pg-xzX" secondAttribute="width" id="NIN-g8-Ubp"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="leading" secondItem="Rkq-A2-Cx2" secondAttribute="leading" id="Ncb-aI-Mwb"/>
+                <constraint firstItem="MdA-Zy-JjS" firstAttribute="top" secondItem="FO5-le-VxD" secondAttribute="bottom" id="RLW-Ky-Sk5"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="leading" secondItem="MdA-Zy-JjS" secondAttribute="leading" id="SJw-Qn-Pd7"/>
+                <constraint firstItem="kM4-XS-le0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ViO-uB-2BX"/>
+                <constraint firstAttribute="bottom" secondItem="mzo-Od-qGA" secondAttribute="bottom" id="YWP-gO-3q4"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="height" secondItem="UI9-wC-UeV" secondAttribute="height" id="YWT-BG-dli"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="height" secondItem="MdA-Zy-JjS" secondAttribute="height" id="YaG-5h-pfU"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="height" secondItem="V02-8I-aLZ" secondAttribute="height" id="b7v-BB-QYR"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="height" secondItem="Ek2-sn-qdq" secondAttribute="height" id="bCz-QU-c1T"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="height" secondItem="ZSr-sW-NrB" secondAttribute="height" id="bMT-7n-WkW"/>
+                <constraint firstAttribute="trailing" secondItem="kM4-XS-le0" secondAttribute="trailing" id="bZn-Mz-XK0"/>
+                <constraint firstItem="Rkq-A2-Cx2" firstAttribute="height" secondItem="mzo-Od-qGA" secondAttribute="height" id="c3W-DT-S5f"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="trailing" secondItem="Rkq-A2-Cx2" secondAttribute="trailing" id="cPc-xA-jXp"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="trailing" secondItem="ZSr-sW-NrB" secondAttribute="trailing" id="cd2-nQ-Uft"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="height" secondItem="Rkq-A2-Cx2" secondAttribute="height" id="dOq-5V-5in"/>
+                <constraint firstItem="UI9-wC-UeV" firstAttribute="leading" secondItem="ZSr-sW-NrB" secondAttribute="trailing" id="dmc-gI-Dab"/>
+                <constraint firstItem="Rkq-A2-Cx2" firstAttribute="centerX" secondItem="qJX-pk-rXi" secondAttribute="centerX" constant="-1" id="eR7-po-5b8"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="width" secondItem="MdA-Zy-JjS" secondAttribute="width" id="eaj-Of-2cN"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="trailing" secondItem="mzo-Od-qGA" secondAttribute="trailing" id="fMp-wD-xij"/>
+                <constraint firstItem="UI9-wC-UeV" firstAttribute="width" secondItem="ZSr-sW-NrB" secondAttribute="width" multiplier="98:122" constant="2" id="h1P-il-0i2"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="trailing" secondItem="V02-8I-aLZ" secondAttribute="trailing" id="iwA-e2-qrb"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="leading" secondItem="ZSr-sW-NrB" secondAttribute="leading" id="khK-a4-7mb"/>
+                <constraint firstItem="Rkq-A2-Cx2" firstAttribute="top" secondItem="zyo-AC-IWs" secondAttribute="bottom" id="lDu-z8-Ude"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="top" secondItem="V02-8I-aLZ" secondAttribute="bottom" id="lg9-Ie-gjp"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mgX-R8-JSn"/>
+                <constraint firstItem="Rkq-A2-Cx2" firstAttribute="centerY" secondItem="qJX-pk-rXi" secondAttribute="centerY" constant="-2" id="oga-B6-joM"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="leading" secondItem="Ek2-sn-qdq" secondAttribute="leading" id="ozi-sm-FPF"/>
+                <constraint firstItem="RiW-pg-xzX" firstAttribute="top" secondItem="MdA-Zy-JjS" secondAttribute="bottom" id="qap-Dd-2UB"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="leading" secondItem="eob-6L-iXS" secondAttribute="leading" id="sPZ-g3-i9h"/>
+                <constraint firstItem="FO5-le-VxD" firstAttribute="width" secondItem="eob-6L-iXS" secondAttribute="width" id="t2A-9M-oes"/>
+                <constraint firstItem="eob-6L-iXS" firstAttribute="top" secondItem="RiW-pg-xzX" secondAttribute="bottom" id="tG6-7J-mEC"/>
+                <constraint firstItem="UI9-wC-UeV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tga-b3-VFg"/>
+                <constraint firstItem="V02-8I-aLZ" firstAttribute="top" secondItem="ZSr-sW-NrB" secondAttribute="bottom" id="vNj-u6-drX"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="trailing" secondItem="UI9-wC-UeV" secondAttribute="trailing" id="wCu-8g-CGr"/>
+                <constraint firstItem="zyo-AC-IWs" firstAttribute="trailing" secondItem="Ek2-sn-qdq" secondAttribute="trailing" id="x64-IL-RBE"/>
+                <constraint firstItem="GfB-NR-auN" firstAttribute="leading" secondItem="mzo-Od-qGA" secondAttribute="leading" id="z73-oe-TDA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="dOq-5V-5in"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="constraint_height" destination="Ezv-kP-Olh" id="Ex7-mr-tnG"/>
+            </connections>
+            <point key="canvasLocation" x="452" y="333"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="qb_tenpay_keyboard_close" width="22" height="16"/>
+        <image name="qb_tenpay_keyboard_single" width="21" height="21"/>
+        <image name="qb_tenpay_keyboard_single_dark" width="21" height="21"/>
+        <image name="qb_tenpay_keyboard_single_press" width="21" height="21"/>
+    </resources>
+</document>
