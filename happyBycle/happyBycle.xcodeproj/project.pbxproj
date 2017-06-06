@@ -1064,6 +1064,7 @@
 				TargetAttributes = {
 					DC01C5051ECC515E00C78349 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2MSHCVV74T;
 						ProvisioningStyle = Automatic;
 					};
 					DC01C51E1ECC515E00C78349 = {
@@ -1414,7 +1415,7 @@
 			baseConfigurationReference = E218DF0ECBAA8753BA8BA6DA /* Pods-happyBycle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2MSHCVV74T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/happyBycle/Classes/ThirdLib/AMapSDK",
@@ -1434,7 +1435,7 @@
 			baseConfigurationReference = 6A22DD49D06E032962B82EC9 /* Pods-happyBycle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2MSHCVV74T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/happyBycle/Classes/ThirdLib/AMapSDK",
